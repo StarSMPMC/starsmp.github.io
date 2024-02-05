@@ -81,20 +81,14 @@ body {
         justify-content: space-between;
     }
     
-    img {
-        width: 70px;
-        height: 70px;
-        margin-left: 77%;
-    }
-    
     #name {
         color: black;
         background-color: white;
-        margin-right: 3%;
+        margin-left: 87%;
         border-left: solid;
         border-right: solid;
         border-color: white;
-        border-width: 3px 3px 3px 3px;
+        border-width: 6px 6px 6px 6px;
     }
     
     .overview {
