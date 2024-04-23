@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +8,28 @@
     <title>ВАШЕ ИМЯ</title>
 </head>
 <body>
-    <nav class="navbar bg-body-tertiary" data-bs-theme="dark" >
+    <nav class="navbar bg-body-tertiary" >
         <div class="container">
-            <a href="#" class="navbar-brand">ВАШЕ ИМЯ <span class="badge text-bg-secondary">beta</span></a>
+            <a href="#" class="navbar-brand">Fracture</a>
             <span class="badge text-bg-warning fs-6 lh-base font-monospace text-wrap nav-item">IP: 000.000.000.000:0000</span>
         </div>
     </nav>
     <br>
-    <div class="container">
+    <div class="container" id="about"> <!--поясняет за шмот-->
         <div class="row">
-            <div class="alert overflow-auto alert-dark col cont-gap" data-bs-theme="dark" role="alert">
+            <h1 class="text-center">
+                <span class="badge text-bg-dark">О нас</span>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="alert overflow-auto alert-dark col cont-gap" role="alert">
                 <h1>Vanilla</h1>
                 На нашем сервере вы сможете испытать настоящее выживание.<br>
                 Здесь нет никаких плагинов, которые бы меняли геймплей.<br>
                 Вы не сможете использовать сторонние команды, чтобы получить всё сразу.<br>
                 <strong>Только вы, мир и ваши навыки.</strong>
             </div>
-            <div class="alert overflow-auto alert-dark col cont-gap" data-bs-theme="dark" role="alert">
+            <div class="alert overflow-auto alert-dark col cont-gap" role="alert">
                 <h1>Справедливость и культура</h1>
                 <strong>На нашем сервере нет доната и привилегий.</strong><br>
                 Все игроки равны друг перед другом, независимо от того, сколько они потратили на сервер.<br>
@@ -33,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="container" id="news" data-bs-theme="dark">
+    <div class="container" id="news"> <!--новости-->
         <div class="row">
             <h1 class="text-center">
                 <span class="badge text-bg-dark">Последние новости</span>
@@ -44,30 +49,60 @@
                 <div class="card-body">
                     <img src="example.png" alt="новостная картинка" class="card-img-top">
                     <div class="lh-1" id="card-title-div">
-                        <h5 class="card-title">Заголовок новости #1</h5>
-                        <p class="fs-6 font-monospace card-title">00.00.0000</p>
+                        <h5 class="card-title placeholder-wave">
+                            <span class="placeholder col-10"></span>
+                        </h5>
+                        <p class="fs-6 placeholder-glow card-title">
+                            <span class="placeholder col-4 bg-secondary"></span>
+                        </p>
                     </div>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nisi ligula. Donec ultrices nec massa ut pellentesque. Etiam neque neque, blandit et pretium sit amet, commodo sit amet est.</p>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                        <span class="placeholder col-8"></span>
+                    </p>
                 </div>
             </div>
             <div class="card col cont-gap">
                 <div class="card-body">
                     <img src="example.png" alt="новостная картинка" class="card-img-top">
                     <div class="lh-1" id="card-title-div">
-                        <h5 class="card-title">Заголовок новости #2</h5>
-                        <p class="fs-6 font-monospace card-title">00.00.0000</p>
+                        <h5 class="card-title placeholder-wave">
+                            <span class="placeholder col-10"></span>
+                        </h5>
+                        <p class="fs-6 placeholder-glow card-title">
+                            <span class="placeholder col-4 bg-secondary"></span>
+                        </p>
                     </div>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nisi ligula. Donec ultrices nec massa ut pellentesque. Etiam neque neque, blandit et pretium sit amet, commodo sit amet est.</p>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                        <span class="placeholder col-8"></span>
+                    </p>
                 </div>
             </div>
             <div class="card col cont-gap">
                 <div class="card-body">
                     <img src="example.png" alt="новостная картинка" class="card-img-top">
                     <div class="lh-1" id="card-title-div">
-                        <h5 class="card-title">Заголовок новости #3</h5>
-                        <p class="fs-6 font-monospace card-title">00.00.0000</p>
+                        <h5 class="card-title placeholder-wave">
+                            <span class="placeholder col-10"></span>
+                        </h5>
+                        <p class="fs-6 placeholder-glow card-title">
+                            <span class="placeholder col-4 bg-secondary"></span>
+                        </p>
                     </div>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nisi ligula. Donec ultrices nec massa ut pellentesque. Etiam neque neque, blandit et pretium sit amet, commodo sit amet est.</p>
+                    <p class="card-text placeholder-wave">
+                        <span class="placeholder col-7"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-4"></span>
+                        <span class="placeholder col-6"></span>
+                        <span class="placeholder col-8"></span>
+                    </p>
                 </div>
             </div>
         </div>
