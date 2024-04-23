@@ -4,7 +4,7 @@ body {
     top: 0px;
 }
 
-#gameplay {
-    margin-left: 5px;
-    margin-right: 5px;
+.cont-gap {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }

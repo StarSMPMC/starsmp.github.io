@@ -11,19 +11,20 @@
     <nav class="navbar bg-body-tertiary" data-bs-theme="dark" >
         <div class="container">
             <a href="#" class="navbar-brand">ВАШЕ ИМЯ <span class="badge text-bg-secondary">beta</span></a>
+            <span class="badge text-bg-warning fs-6 lh-base font-monospace text-wrap nav-item">IP: 000.000.000.000:0000</span>
         </div>
     </nav>
     <br>
     <div class="container">
         <div class="row">
-            <div class="alert alert-dark col" data-bs-theme="dark" role="alert" id="gameplay">
+            <div class="alert overflow-auto alert-dark col cont-gap" data-bs-theme="dark" role="alert">
                 <h1>Vanilla</h1>
                 На нашем сервере вы сможете испытать настоящее выживание.<br>
                 Здесь нет никаких плагинов, которые бы меняли геймплей.<br>
                 Вы не сможете использовать сторонние команды, чтобы получить всё сразу.<br>
                 <strong>Только вы, мир и ваши навыки.</strong>
             </div>
-            <div class="alert alert-dark col" data-bs-theme="dark" role="alert" id="gameplay">
+            <div class="alert overflow-auto alert-dark col cont-gap" data-bs-theme="dark" role="alert">
                 <h1>Справедливость и культура</h1>
                 <strong>На нашем сервере нет доната и привилегий.</strong><br>
                 Все игроки равны друг перед другом, независимо от того, сколько они потратили на сервер.<br>
@@ -31,12 +32,43 @@
                 Мы приветствуем цивилизованное общение и стремимся создать дружелюбную атмосферу для всех игроков.
             </div>
         </div>
+    </div>
+    <div class="container" id="news" data-bs-theme="dark">
         <div class="row">
-            <div class="alert alert-dark col" data-bs-theme="dark" role="alert" id="gameplay">
-                <center>
-                    <h4>IP:PORT</h4>
-                    <a href="https://yoomoney.ru/to/4100116760413104"><button type="button" data-bs-theme="dark" class="btn btn-dark">Пожертвовать денег на развитие</button></a>
-                </center>
+            <h1 class="text-center">
+                <span class="badge text-bg-dark">Последние новости</span>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="card col cont-gap">
+                <div class="card-body">
+                    <img src="example.png" alt="новостная картинка" class="card-img-top">
+                    <div class="lh-1" id="card-title-div">
+                        <h5 class="card-title">Заголовок новости #1</h5>
+                        <p class="fs-6 font-monospace card-title">00.00.0000</p>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nisi ligula. Donec ultrices nec massa ut pellentesque. Etiam neque neque, blandit et pretium sit amet, commodo sit amet est.</p>
+                </div>
+            </div>
+            <div class="card col cont-gap">
+                <div class="card-body">
+                    <img src="example.png" alt="новостная картинка" class="card-img-top">
+                    <div class="lh-1" id="card-title-div">
+                        <h5 class="card-title">Заголовок новости #2</h5>
+                        <p class="fs-6 font-monospace card-title">00.00.0000</p>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nisi ligula. Donec ultrices nec massa ut pellentesque. Etiam neque neque, blandit et pretium sit amet, commodo sit amet est.</p>
+                </div>
+            </div>
+            <div class="card col cont-gap">
+                <div class="card-body">
+                    <img src="example.png" alt="новостная картинка" class="card-img-top">
+                    <div class="lh-1" id="card-title-div">
+                        <h5 class="card-title">Заголовок новости #3</h5>
+                        <p class="fs-6 font-monospace card-title">00.00.0000</p>
+                    </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in nisi ligula. Donec ultrices nec massa ut pellentesque. Etiam neque neque, blandit et pretium sit amet, commodo sit amet est.</p>
+                </div>
             </div>
         </div>
     </div>
